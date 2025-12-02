@@ -16,3 +16,15 @@ Al registrar un cliente, asegurarse de usar en el campo `user_id` el mismo ID qu
 ```sql
 CREATE DATABASE db_customer; -- Para clientes y regiones
 ```
+---
+### 🔗 Mapa de Arquitectura
+0. [Config data](https://github.com/AlexaRamirezV/config-data.git)
+1. [Config Server](https://github.com/AlexaRamirezV/config-service.git)
+2.  [Registry Service (Eureka)](https://github.com/AlexaRamirezV/registry-service.git)
+3.  [Gateway Service](https://github.com/AlexaRamirezV/gateway-service.git)
+4.  [Admin Service](https://github.com/AlexaRamirezV/admin-service.git)
+5.  APIs del sistema:
+   * [Auth](https://github.com/AlexaRamirezV/DWB-auth.git)
+   *  ➡️ **[Customer]**
+   * [Product](https://github.com/xEriis/Backend.git)
+   * [Invoice](https://github.com/AlexaRamirezV/DWB-invoice.git)
