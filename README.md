@@ -1,4 +1,4 @@
-# 👤 Customer Service (Negocio)
+# 👤 Customer Service
 
 **Puerto:** `8082`
 **Base de Datos:** `db_customer`
